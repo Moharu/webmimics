@@ -21,12 +21,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        <?= $cakeDescription ?>:
-        <?= $this->fetch('title') ?>
+        WebMimics
     </title>
     <?= $this->Html->meta('icon') ?>
 
-    <?= $this->Html->css('base.css') ?>
+    <?= $this->Html->css('base.css') ?> <!-- Imports dos CSS na pasta webroot/css-->
     <?= $this->Html->css('cake.css') ?>
 
     <?= $this->fetch('meta') ?>
@@ -36,11 +35,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
     <header>
         <div class="header-title">
-            <span><?= $this->fetch('title') ?></span>
-        </div>
-        <div class="header-help">
-            <span><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></span>
-            <span><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></span>
+            <span>Web Mimics</span>
         </div>
     </header>
     <div id="container">

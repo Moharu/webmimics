@@ -16,3 +16,20 @@
 [11-Mar-2015 04:11:36 UTC] PHP Parse error:  syntax error, unexpected 'name' (T_STRING), expecting ')' in /home/ubuntu/workspace/webmimics/src/Template/Categories/index.ctp on line 8
 [11-Mar-2015 04:18:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/webmimics/src/Controller/CategoriesController.php on line 44
 [11-Mar-2015 21:45:06 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/webmimics/src/Controller/CategoriesController.php on line 61
+[11-Mar-2015 22:29:00 UTC] PHP Fatal error:  Class 'App\Controller\TableRegistry' not found in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 41
+[12-Mar-2015 02:47:40 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 50
+[12-Mar-2015 02:47:42 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 50
+[12-Mar-2015 02:47:59 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 51
+[12-Mar-2015 02:48:01 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 51
+[12-Mar-2015 02:48:03 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 51
+[12-Mar-2015 02:48:20 UTC] PHP Parse error:  syntax error, unexpected 'Array' (T_ARRAY) in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 52
+[12-Mar-2015 02:50:21 UTC] PHP Fatal error:  Call to undefined function App\Controller\push() in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 53
+[12-Mar-2015 02:50:24 UTC] PHP Fatal error:  Call to undefined function App\Controller\push() in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 53
+[12-Mar-2015 02:50:28 UTC] PHP Fatal error:  Call to undefined function App\Controller\push() in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 53
+[12-Mar-2015 02:51:20 UTC] PHP Fatal error:  Call to undefined function App\Controller\push() in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 53
+[12-Mar-2015 02:52:02 UTC] PHP Fatal error:  Call to undefined function App\Controller\push() in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 54
+[12-Mar-2015 02:54:44 UTC] PHP Fatal error:  Call to undefined function App\Controller\push() in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 53
+[12-Mar-2015 02:54:47 UTC] PHP Fatal error:  Call to undefined function App\Controller\push() in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 53
+[12-Mar-2015 02:54:59 UTC] PHP Fatal error:  Call to undefined function App\Controller\push() in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 53
+[12-Mar-2015 03:45:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 58
+[12-Mar-2015 03:46:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/ubuntu/workspace/webmimics/src/Controller/PagesController.php on line 58

@@ -17,6 +17,7 @@ namespace App\Controller;
 use Cake\Core\Configure;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
+use Cake\ORM\TableRegistry;
 
 /**
  * Static content controller
@@ -37,6 +38,30 @@ class PagesController extends AppController
      */
     public function display()
     {
+        
+        $categories = TableRegistry::get('Categories');
+        $mimics = TableRegistry::get('Mimics');
+        $categorylist = $categories->find('All');
+        
+        $this->set('categories', $categorylist);
+        
+        if($this->request->env('REQUEST_METHOD') == 'POST'){
+            $chosencategory = $this->request->header('category');
+            $mimiclist = $mimics->find()->where(['Mimics.categories_id'  => $chosencategory]);
+            $list = array();
+            foreach($mimiclist as $mimic){
+                array_push($list, array('name' => $mimic->name, 'value' => $mimic->value));
+            }
+            $k = array_rand($list);
+            $l = array_rand($list);
+            while($l == $k){
+                $l = array_rand($list);
+            }
+            $chosenmimic = $list[$k];
+            $chosenmimic2 = $list[$l];
+            die('<td style="text-align:center">Mímica: <b><h2>' . $chosenmimic['name'] . '</b></h2> Valor: <b><h2>' . $chosenmimic['value'] . '</b></h2></td><td style="text-align:center"><h1>OU</h1></td><td style="text-align:center"><br>Mímica: <b><h2>' . $chosenmimic2['name'] . '</b></h2> Valor: <b><h2>' . $chosenmimic2['value'] . '</b></h2></td>');
+        }
+        
         $path = func_get_args();
 
         $count = count($path);
