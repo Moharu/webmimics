@@ -33,7 +33,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('script') ?>
 </head>
 <body>
-    <header>
+    <header style="background:#DFA312">
         <div class="header-title">
             <span>Web Mimics</span>
         </div>

@@ -59,7 +59,7 @@ class PagesController extends AppController
             }
             $chosenmimic = $list[$k];
             $chosenmimic2 = $list[$l];
-            die('<td style="text-align:center">Mímica: <b><h2>' . $chosenmimic['name'] . '</b></h2> Valor: <b><h2>' . $chosenmimic['value'] . '</b></h2></td><td style="text-align:center"><h1>OU</h1></td><td style="text-align:center"><br>Mímica: <b><h2>' . $chosenmimic2['name'] . '</b></h2> Valor: <b><h2>' . $chosenmimic2['value'] . '</b></h2></td>');
+            die('<td style="text-align:center">Mímica: <b><h2>' . $chosenmimic['name'] . '</b></h2> Valor: <b><h2>' . $chosenmimic['value'] . '</b></h2></td><td style="text-align:center; width:10%"><h1>OU</h1></td><td style="text-align:center"><br>Mímica: <b><h2>' . $chosenmimic2['name'] . '</b></h2> Valor: <b><h2>' . $chosenmimic2['value'] . '</b></h2></td>');
         }
         
         $path = func_get_args();

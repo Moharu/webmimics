@@ -60,7 +60,7 @@ class CategoriesController extends AppController
         }
         $category = $categories->find('all')->where(['Categories.id'  => $this->request->pass[0]]);
         $this->set('categories', $category);
-        $mimiclist = $mimics->find('all')->where(['Mimics.categories_id' => $this->request->pass[0]]);
+        $mimiclist = $mimics->find('all')->where(['Mimics.categories_id' => $this->request->pass[0]])->orderBy();
         $this->set('mimics', $mimiclist);
     }
     
